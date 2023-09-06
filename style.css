@@ -332,7 +332,7 @@ html{
 }
 .skills .skill .trabajoEquipo{
   width: 0%;
-  animation: 2s tranajoEquipo forwards;
+  animation: 2s trabajoEquipo forwards;
 }
 @keyframes trabajoEquipo {
   0%{width: 0%;}
