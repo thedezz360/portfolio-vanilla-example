@@ -25,15 +25,15 @@
         </div>
         <nav id="nav">
           <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#sobremi">Sobre mi</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#curriculum">Curriculum</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li id="menu-inicio"><a href="#inicio" >Inicio</a></li>
+            <li><a href="#sobremi" id="menu-sobremi">Sobre mi</a></li>
+            <li><a href="#skills" id="menu-skills">Skills</a></li>
+            <li><a href="#curriculum" id="menu-curriculum">Curriculum</a></li>
+            <li><a href="#proyectos" id="menu-proyectos">Proyectos</a></li>
+            <li><a href="#contacto" id="menu-contacto">Contacto</a></li>
           </ul>
         </nav>
-        <div class="nav-responsive">
+        <div id="nav-responsive" class="nav-responsive">
           <i class="fa-solid fa-bars"></i>
         </div>
       </header>
@@ -306,7 +306,6 @@
       <div class="contenido-seccion">
         <h2>Proyectos</h2>
         <div class="galeria">
-
           <div class="proyecto">
             <img src="img/p1.jpg" alt="proyecto1" />
             <div class="overlay">
@@ -354,7 +353,6 @@
               <p>Fotografía</p>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -366,19 +364,24 @@
         <div class="fila">
           <!-- Formulario -->
           <div class="col">
-            <input type="text" name="nombre" placeholder="Tú nombre">
+            <input type="text" name="nombre" placeholder="Tú nombre" />
             <input type="text" name="telefono" placeholder="Número telefónico"">
-            <input type="text" name="email" placeholder="Email">
-            <textarea name="Mensaje"  cols="30" rows="10" placeholder="Deja tu mensaje"></textarea>
+            <input type="text" name="email" placeholder="Email" />
+            <textarea
+              name="Mensaje"
+              cols="30"
+              rows="10"
+              placeholder="Deja tu mensaje"
+            ></textarea>
             <button>
-              Enviar mensaje 
+              Enviar mensaje
               <i class="fa-regular fa-paper-plane"></i>
               <span class="overlay"></span>
             </button>
           </div>
           <!-- Mapa -->
           <div class="col">
-            <img src="img/ubicacion.png" alt="ubicacion">
+            <img src="img/ubicacion.png" alt="ubicacion" />
             <div class="info">
               <ul>
                 <li>
@@ -399,5 +402,20 @@
         </div>
       </div>
     </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        
+      </div>
+    </footer>
+    
+    <script src="./script.js"></script>
   </body>
 </html>
